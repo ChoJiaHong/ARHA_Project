@@ -6,8 +6,8 @@
             3
         ],
         "workAbility":{
-            "workergpu" : 10,
-            "workergpu2" : 10
+            "hiro-worker" : 10,
+            "hiro-master" : 0
         },
         "gpuMemoryRequest" : 3 
     },
@@ -18,8 +18,8 @@
             3
         ],
         "workAbility":{
-            "workergpu" : 10,
-            "workergpu2" : 10
+            "hiro-worker" : 10,
+            "hiro-master" : 0
         },
         "gpuMemoryRequest" : 3 
     }

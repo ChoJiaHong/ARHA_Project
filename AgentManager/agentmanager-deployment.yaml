@@ -23,9 +23,9 @@ spec:
               containerPort: 50051
           command: ["python3", "AgentManager_websocket.py"]  
           args: 
-          - "10.52.52.58"             # 將10.52.52.58更改成Agent_Host(PC4)的IP
-          - "example_account"         # 將example_account更改成Agent_Host(PC4)的使用者ACCOUNT
-          - "example_password"        # 將example_password更改成Agent_Host(PC4)的使用者PASSWORD
+          - "10.52.52.111"             # 將10.52.52.58更改成Agent_Host(PC4)的IP
+          - "hiro"         # 將example_account更改成Agent_Host(PC4)的使用者ACCOUNT
+          - "9722"        # 將example_password更改成Agent_Host(PC4)的使用者PASSWORD
           volumeMounts:
             - name: logs-volume
               mountPath: /app/logs
