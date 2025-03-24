@@ -36,10 +36,10 @@ spec:
           requiredDuringSchedulingIgnoredDuringExecution:
             nodeSelectorTerms:
             - matchExpressions:
-              - key: arha-node-type
+              - key: arha-controller
                 operator: In
                 values:
-                - controller-node
+                - "true"
       tolerations:
         - key: "node-role.kubernetes.io/control-plane"
           operator: "Exists"

@@ -1,4 +1,4 @@
 {
-    "workergpu": "healthy",
-    "workergpu2": "healthy"
+    "hiro-master": "healthy",
+    "hiro-worker": "healthy"
 }
